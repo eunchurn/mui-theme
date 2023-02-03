@@ -1,5 +1,7 @@
 # @builderhub/mui-theme
 
+[![Publish Package to npmjs](https://github.com/eunchurn/mui-theme/actions/workflows/publish.yml/badge.svg)](https://github.com/eunchurn/mui-theme/actions/workflows/publish.yml) ![npm](https://img.shields.io/npm/dw/@builderhub%2Fmui-theme) ![npm](https://img.shields.io/npm/v/@builderhub/mui-theme?color=%2357C754&label=npm%20version) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Builderhub Platform Material UI Theme
 
 - Custom colors
