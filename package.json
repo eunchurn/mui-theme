@@ -1,6 +1,6 @@
 {
   "name": "@builderhub/mui-theme",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Builderhub Platform Material UI Theme",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,8 @@
     "build": "tsc && tsc-alias",
     "test": "jest",
     "typecheck": "tsc --noEmit",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "standard-version"
   },
   "keywords": [],
   "author": "Builderhub Platform Dev Team",
