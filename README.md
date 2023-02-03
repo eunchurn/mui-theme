@@ -43,3 +43,32 @@ export function Wrapped() {
   );
 }
 ```
+
+### 기존 `colors`를 수정하는 방법
+
+```tsx
+- import { colors } from "context";
++ import { useTheme } from "@mui/material";
+
+// ...omitted
+function Component() {
+  const { palette } = useTheme();
+
+  - const oldColor = colors.purple_10;
+  + const newColor = palette.purple_10;
+}
+```
+
+### `styled` 에서 사용
+
+```tsx
+import { styled, Button } from "@mui/material";
+
+export const CustomButton = styled(Button)(({ theme }) => ({
+  border: 0,
+  background: theme.palette.purple_10,
+  width: "5rem",
+  height: "2rem",
+  borderRadius: theme.shape.borderRadius,
+}));
+```
